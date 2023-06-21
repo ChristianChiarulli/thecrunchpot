@@ -1,0 +1,28 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header.astro";
+import '@fontsource/satisfy';
+---
+
+<Layout title="Welcome to Astro.">
+  <main class="relative isolate min-h-full">
+    <img
+      src="https://images.unsplash.com/photo-1676292943401-c363dbb16b2f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80"
+      alt=""
+      class="absolute inset-0 -z-10 h-full w-full object-cover object-center"
+    />
+    <div
+      class="mx-auto max-w-7xl flex flex-col justify-center items-center px-6 py-32 text-center sm:py-40 lg:px-8"
+    >
+      <img
+        src="https://user-images.githubusercontent.com/29136904/247701752-08a1f5a7-56d8-4791-8c94-feb2d201e698.png"
+        alt=""
+        class="h-56 w-56 rounded-full overflow-hidden opacity-95"
+      />
+      <h1 class="font-handwriting mt-8 text-6xl font-bold tracking-tight text-white sm:text-5xl">
+        Coming Soon...
+      </h1>
+      <Header />
+    </div>
+  </main>
+</Layout>
